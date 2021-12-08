@@ -75,3 +75,5 @@ catch
   call input('Press ENTER or type command to continue')
   cquit!
 endtry
+
+DuzzleStart
