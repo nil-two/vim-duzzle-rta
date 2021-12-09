@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>258</X>
-  <Y>407</Y>
-  <VerticalWidth>252</VerticalWidth>
-  <VerticalHeight>82</VerticalHeight>
+  <X>1505</X>
+  <Y>0</Y>
+  <VerticalWidth>416</VerticalWidth>
+  <VerticalHeight>135</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
   <HorizontalHeight>-1</HorizontalHeight>
   <Settings>
@@ -45,7 +45,7 @@
         <Version>1.7.3</Version>
         <ShowGameName>True</ShowGameName>
         <ShowCategoryName>True</ShowCategoryName>
-        <ShowAttemptCount>False</ShowAttemptCount>
+        <ShowAttemptCount>True</ShowAttemptCount>
         <ShowFinishedRunsCount>False</ShowFinishedRunsCount>
         <OverrideTitleFont>False</OverrideTitleFont>
         <OverrideTitleColor>False</OverrideTitleColor>
