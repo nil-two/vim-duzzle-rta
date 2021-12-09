@@ -79,3 +79,4 @@ catch
 endtry
 
 DuzzleStart
+normal! G
