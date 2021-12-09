@@ -15,6 +15,7 @@ function! s:initial_settings() abort
   let s:livesplit_enable  = get(conf, 'livesplit_enable', v:false)
   let s:livesplit_address = get(conf, 'livesplit_address', 'localhost:16834')
   if s:livesplit_enable
+    call s:livespit_send_request(['reset'])
     augroup livesplit
       autocmd!
       autocmd FileType duzzle
