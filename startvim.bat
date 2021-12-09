@@ -1,2 +1,2 @@
 @echo off
-vim -u NONE -i NONE -NnS share\init.vim -W log\vim.log
+vim -u NONE -i NONE -NnS share\vim\init.vim -W log\vim.log
