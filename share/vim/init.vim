@@ -66,6 +66,7 @@ function! s:livesplit_on_duzzle_suspend() abort
     augroup livesplit_started
       autocmd!
     augroup END
+    quit!
   endif
 endfunction
 
