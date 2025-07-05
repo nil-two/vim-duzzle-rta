@@ -5,7 +5,7 @@ let s:crlf                = nr2char(0x0d) . nr2char(0x0a)
 
 function! s:initial_settings() abort
   if !isdirectory('share/vim-duzzle')
-    let gitout = system('git clone https://github.com/deris/vim-duzzle share/vim-duzzle')
+    let gitout = system('git clone https://github.com/monaqa/vim-duzzle share/vim-duzzle')
     if v:shell_error !=# 0
       throw gitout
     endif
@@ -78,5 +78,5 @@ catch
   cquit!
 endtry
 
-DuzzleStart
+execute 'DuzzleStart' '-e=' . $EXPERIMENT
 normal! G

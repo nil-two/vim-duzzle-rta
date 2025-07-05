@@ -1,2 +1,5 @@
 #!/bin/bash
+set -eu
+
+export EXPERIMENT=${1-_}
 vim -u NONE -i NONE -NnS share/vim/init.vim -W log/vim.log
